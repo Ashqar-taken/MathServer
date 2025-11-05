@@ -33,7 +33,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 
-power.html
+**power.html**
 
 ```
 <html>
@@ -110,7 +110,7 @@ power.html
 </html>
 ```
 
-views.py
+**views.py**
 ```
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -137,7 +137,7 @@ def powerlamp(request):
 
 ```
 
-urls.py
+**urls.py**
 ```
 from django.contrib import admin
 from django.urls import URLPattern, path
